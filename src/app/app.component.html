@@ -31,3 +31,28 @@
     </mat-card-actions>
 </mat-card>
 <router-outlet></router-outlet>
+
+<div fxLayout="column">
+    <header style="background-color: green">this is the header</header>
+    <main fxLayout="row wrap-reverse" fxLayout.xs="column" fxHide.md fxLayoutAlign="center" style="background-color: red">
+        <nav fxLayout="column" fxShow="" fxFlex="30%" style="background-color: rgba(0, 0, 0, 0.6)">
+            <ul>
+                <li>hi</li>
+                <li>home</li>
+                <li>about us</li>
+                <li>test</li>
+            </ul>
+        </nav>
+        <div class="main-content" fxLayout="column" fxFlex="50%"  style="background-color: rgba(0, 0, 0, 0.4)"> are you sure that this is the content of the main section</div>
+        <nav fxLayout="column" fxFlex="30%" style="background-color: rgba(0, 0, 0, 0.6)">
+            <ul>
+                <li>hi</li>
+                <li>home</li>
+                <li>about us</li>
+                <li>test</li>
+            </ul>
+        </nav>
+        <div class="main-content" fxLayout="column" fxFlex="50%"  style="background-color: rgba(0, 0, 0, 0.4)"> are you sure that this is the content of the main section</div>
+    </main>
+    <footer style="background-color: green">this is the footer</footer>
+</div>
